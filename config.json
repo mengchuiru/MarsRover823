@@ -1,0 +1,30 @@
+{
+  "name": {
+    "zh-cn": " 火星漫步者",
+    "en": " Mars Rover"
+  },
+  "description": {
+    "zh-cn": "使用micro:bit编程控制的火星漫步者移动实验室",
+    "en": "Mars Rover Lab expansion board for micro:bit"
+  },
+  "author": "火星学院",
+  "email": "wangyinshen@zju.edu.cn",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "mars_rover",
+  "version": "2.71",
+  "platform": [
+    "win",
+    "mac"
+  ],
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "2.71",
+      "board": [
+        "microbit"
+      ],
+      "main": "main.ts"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{	
+	"PIN_DigitalWrite": {
+		"menu": [
+			["P1", "1"],
+			["P2", "2"],
+			["P8", "8"],
+			["P12", "12"],
+			["P15", "15"],
+			["P16", "16"]
+		],
+		"default_readDhtValues_DHT_PIN": "15",
+		"default_readHumanInfrared_HUMAN_PIN": "16"
+	},
+
+	"PIN_AnalogWrite": {
+		"menu": [
+			["P1", "1"],
+			["P2", "2"]
+		],
+		"default_readSoilMoisture_SOIL_PIN": "1",
+		"default_readRotaryValue_ROTARY_PIN": "2"
+	},
+
+	"PIN_BUZZER_MUSIC":{
+		"menu": [
+			["P0", "0"]
+		]
+	},
+	
+	"PIN_VIBRATION_MOTOR":{
+		"menu": [
+			["P1", "1"]
+		]
+	},
+
+	"PIN_RGBS_ONBOARD":{
+		"menu": [
+			["P11", "11"]
+		]
+	},
+
+	"PIN_RGB_ULTRASONIC":{
+		"menu": [
+			["P0", "0"]
+		]
+	}
+}
